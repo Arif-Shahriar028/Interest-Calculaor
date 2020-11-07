@@ -96,7 +96,7 @@ class _InterestCalcuState extends State<InterestCalculator> {
                           controller: termsController,
                           validator: (String value) {
                             if (value.isEmpty) {
-                              return 'Please enter Termms';
+                              return 'Please enter Terms';
                             }
                           },
                           decoration: InputDecoration(
